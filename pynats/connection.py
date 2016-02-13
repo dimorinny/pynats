@@ -105,7 +105,7 @@ class Connection(object):
             subject=subject,
             queue=queue,
             callback=callback,
-            connetion=self
+            connection=self
         )
 
         self._subscriptions[s.sid] = s

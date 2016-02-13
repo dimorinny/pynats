@@ -1,9 +1,9 @@
 class Subscription(object):
-    def __init__(self, sid, subject, queue, callback, connetion):
+    def __init__(self, sid, subject, queue, callback, connection):
         self.sid = sid
         self.subject = subject
         self.queue = queue
-        self.connetion = connetion
+        self.connection = connection
         self.callback = callback
         self.received = 0
         self.delivered = 0
